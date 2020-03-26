@@ -1,0 +1,2464 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties/>
+    <layer-tree-group checked="Qt::Unchecked" expanded="1" name="Kuntien paikkatietoaineistoja">
+      <customproperties/>
+      <layer-tree-group checked="Qt::Unchecked" expanded="0" name="Helsinki">
+        <customproperties/>
+        <layer-tree-layer providerKey="WFS" checked="Qt::Unchecked" expanded="1" name="avoindata:Helsinki_osoitteet_rakennukset" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:3067' typename='avoindata:Helsinki_osoitteet_rakennukset' url='https://kartta.hel.fi/ws/geoserver/avoindata/ows' version='auto'" id="avoindata_Helsinki_osoitteet_rakennukset_fa628ef4_337d_4de1_ac79_ea51c9975f73">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer providerKey="WFS" checked="Qt::Unchecked" expanded="1" name="avoindata:Rakennukset_alue_rekisteritiedot" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:3067' typename='avoindata:Rakennukset_alue_rekisteritiedot' url='https://kartta.hel.fi/ws/geoserver/avoindata/ows' version='auto'" id="avoindata_Rakennukset_alue_rekisteritiedot_42e125a2_96ed_48ef_8087_abf774e93f1f">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group checked="Qt::Unchecked" expanded="0" name="Tampere">
+        <customproperties/>
+        <layer-tree-layer providerKey="wms" checked="Qt::Unchecked" expanded="0" name="Tampereen kantakartta MML (HARMAA, TM35)" source="contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=georaster:kantakartta_mml_harmaa_EPSG_3067&amp;styles=raster_alpha&amp;tileMatrixSet=JHS&amp;url=https://georaster.tampere.fi/geoserver/gwc/service/wmts?REQUEST%3DGetCapabilities" id="Tampereen_kantakartta_MML__HARMAA__TM35__dc3ac0ec_59cd_4125_8bea_08fd6999aa63">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer providerKey="wms" checked="Qt::Unchecked" expanded="0" name="Tampereen ortokuvakoonti (VÄRI, ETRS89 / ETRS-TM35FIN)" source="contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=georaster:Ortokoonti_EPSG_3067&amp;styles&amp;url=https://georaster.tampere.fi/geoserver/ows" id="Tampereen_ortokuvakoonti__VÄRI__ETRS89___ETRS_TM35FIN__0e8bd7a0_7197_4465_b66d_ee068c6bd579">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer providerKey="wms" checked="Qt::Unchecked" expanded="0" name="Tampereen kantakartta (MV, TM35)" source="contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=georaster:kantakartta_EPSG_3067&amp;styles&amp;url=https://georaster.tampere.fi/geoserver/ows" id="Tampereen_kantakartta__MV__TM35__bc4e2f86_6597_4f05_abc1_34daf6c187e6">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer providerKey="WFS" checked="Qt::Unchecked" expanded="1" name="maankaytto:AK_ASEMAKAAVAINDEKSI_VIEW" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:3878' typename='maankaytto:AK_ASEMAKAAVAINDEKSI_VIEW' url='https://geodata.tampere.fi/geoserver/ows?' version='auto'" id="maankaytto_AK_ASEMAKAAVAINDEKSI_VIEW_e7fc2bf7_c346_4cf2_b1d7_c1698a490deb">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer providerKey="WFS" checked="Qt::Unchecked" expanded="1" name="luonto:YV_JARVI" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:3878' typename='luonto:YV_JARVI' url='https://geodata.tampere.fi/geoserver/ows?' version='auto'" id="luonto_YV_JARVI_43155d3c_6481_4b5b_be4b_c1a7a7ff897f">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group checked="Qt::Unchecked" expanded="0" name="Oulu">
+        <customproperties/>
+        <layer-tree-layer providerKey="wms" checked="Qt::Unchecked" expanded="1" name="Oulun asemakaava" source="contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Asemakaava&amp;styles&amp;url=https://e-kartta.ouka.fi/TeklaOGCWeb/WMS.ashx" id="Oulun_asemakaava_b7cd43ff_ac2e_4c01_8140_69d78c8c3e8e">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer providerKey="wms" checked="Qt::Unchecked" expanded="1" name="Oulun ilmakuva 2018" source="contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Ilmakuva%202018%20re&amp;styles&amp;url=https://e-kartta.ouka.fi/TeklaOGCWeb/WMS.ashx" id="Oulun_ilmakuva_2018_9be86ffb_47e1_4a80_ad7a_40ead15cff84">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group checked="Qt::Unchecked" expanded="0" name="Vantaa">
+        <customproperties/>
+        <layer-tree-layer providerKey="wms" checked="Qt::Unchecked" expanded="1" name="Kaupunkikartta mustavalko" source="contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=taustakartta:kaupunkikartta_mv&amp;styles&amp;url=http://gis.vantaa.fi/geoserver/wms?request%3DGetCapabilities" id="Kaupunkikartta_mustavalko_bd8d3ad8_5eeb_410a_b70a_9c46dfbbb52d">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer providerKey="wms" checked="Qt::Unchecked" expanded="0" name="Ortoilmakuva 2019" source="contextualWMSLegend=0&amp;crs=EPSG:3879&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=taustakartta:ortokuva_2019&amp;styles&amp;url=http://gis.vantaa.fi/geoserver/wms?request%3DGetCapabilities" id="Ortoilmakuva_2019_f0a09a32_d9be_47b8_ab56_25af5426e2a6">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group checked="Qt::Unchecked" expanded="0" name="Espoo">
+        <customproperties/>
+        <layer-tree-layer providerKey="wms" checked="Qt::Unchecked" expanded="1" name="Espoon karsittu kantakartta, harmaa" source="contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Karsittu_kantakartta&amp;styles&amp;url=http://kartat.espoo.fi/teklaogcweb/WMS.ashx" id="Espoon_karsittu_kantakartta__harmaa_03476cc4_6f06_448b_a187_9bd4e677124d">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer providerKey="wms" checked="Qt::Unchecked" expanded="1" name="Espoon ortokartta 2019" source="contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Ortokartta&amp;styles&amp;url=http://kartat.espoo.fi/teklaogcweb/WMS.ashx" id="Espoon_ortokartta_2019_49b143fe_1974_4c4e_8605_85ed42109355">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+    </layer-tree-group>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer autoRefreshEnabled="0" simplifyDrawingHints="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" simplifyDrawingTol="4.2" autoRefreshTime="0" type="vector" geometry="Point" wkbType="Point" readOnly="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyLocal="0" maxScale="0" labelsEnabled="0" minScale="100000000" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>374996.55293610884109512</xmin>
+        <ymin>6642543.41785594541579485</ymin>
+        <xmax>405532.65975030162371695</xmax>
+        <ymax>6689416.21971434727311134</ymax>
+      </extent>
+      <id>avoindata_Helsinki_osoitteet_rakennukset_fa628ef4_337d_4de1_ac79_ea51c9975f73</id>
+      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:3067' typename='avoindata:Helsinki_osoitteet_rakennukset' url='https://kartta.hel.fi/ws/geoserver/avoindata/ows' version='auto'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>avoindata:Helsinki_osoitteet_rakennukset</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / TM35FIN(E,N)",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",27],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3067"]]</wkt>
+          <proj4>+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1030</srsid>
+          <srid>3067</srid>
+          <authid>EPSG:3067</authid>
+          <description>ETRS89 / TM35FIN(E,N)</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">WFS</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" force_rhr="0" name="0" type="marker">
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="125,139,143,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ratu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vtj_prt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="katunimi_suomi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="katunimi_ruotsi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osoitenumero">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postinumero">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osoitetyyppi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postitoimipaikka">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datanomistaja">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="paivitetty_tietopalveluun">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" name="" index="0"/>
+        <alias field="ratu" name="" index="1"/>
+        <alias field="vtj_prt" name="" index="2"/>
+        <alias field="katunimi_suomi" name="" index="3"/>
+        <alias field="katunimi_ruotsi" name="" index="4"/>
+        <alias field="osoitenumero" name="" index="5"/>
+        <alias field="postinumero" name="" index="6"/>
+        <alias field="osoitetyyppi" name="" index="7"/>
+        <alias field="postitoimipaikka" name="" index="8"/>
+        <alias field="datanomistaja" name="" index="9"/>
+        <alias field="paivitetty_tietopalveluun" name="" index="10"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="ratu" applyOnUpdate="0"/>
+        <default expression="" field="vtj_prt" applyOnUpdate="0"/>
+        <default expression="" field="katunimi_suomi" applyOnUpdate="0"/>
+        <default expression="" field="katunimi_ruotsi" applyOnUpdate="0"/>
+        <default expression="" field="osoitenumero" applyOnUpdate="0"/>
+        <default expression="" field="postinumero" applyOnUpdate="0"/>
+        <default expression="" field="osoitetyyppi" applyOnUpdate="0"/>
+        <default expression="" field="postitoimipaikka" applyOnUpdate="0"/>
+        <default expression="" field="datanomistaja" applyOnUpdate="0"/>
+        <default expression="" field="paivitetty_tietopalveluun" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" field="id" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="ratu" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="vtj_prt" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="katunimi_suomi" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="katunimi_ruotsi" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="osoitenumero" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="postinumero" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="osoitetyyppi" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="postitoimipaikka" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="datanomistaja" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="paivitetty_tietopalveluun" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="ratu" exp=""/>
+        <constraint desc="" field="vtj_prt" exp=""/>
+        <constraint desc="" field="katunimi_suomi" exp=""/>
+        <constraint desc="" field="katunimi_ruotsi" exp=""/>
+        <constraint desc="" field="osoitenumero" exp=""/>
+        <constraint desc="" field="postinumero" exp=""/>
+        <constraint desc="" field="osoitetyyppi" exp=""/>
+        <constraint desc="" field="postitoimipaikka" exp=""/>
+        <constraint desc="" field="datanomistaja" exp=""/>
+        <constraint desc="" field="paivitetty_tietopalveluun" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" simplifyDrawingHints="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" simplifyDrawingTol="4.2" autoRefreshTime="0" type="vector" geometry="Polygon" wkbType="Polygon" readOnly="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyLocal="0" maxScale="0" labelsEnabled="0" minScale="100000000" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>375367.93899328768020496</xmin>
+        <ymin>6653536.43796562217175961</ymin>
+        <xmax>405532.65975030232220888</xmax>
+        <ymax>6689416.2197143416851759</ymax>
+      </extent>
+      <id>avoindata_Rakennukset_alue_rekisteritiedot_42e125a2_96ed_48ef_8087_abf774e93f1f</id>
+      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:3067' typename='avoindata:Rakennukset_alue_rekisteritiedot' url='https://kartta.hel.fi/ws/geoserver/avoindata/ows' version='auto'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>avoindata:Rakennukset_alue_rekisteritiedot</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / TM35FIN(E,N)",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",27],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3067"]]</wkt>
+          <proj4>+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1030</srsid>
+          <srid>3067</srid>
+          <authid>EPSG:3067</authid>
+          <description>ETRS89 / TM35FIN(E,N)</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">WFS</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" force_rhr="0" name="0" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="133,182,111,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="kuntarekisteri_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="kg_krakenn">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ratu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vtj_prt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tyyppi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tyyppi_koodi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tila">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tila_koodi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ratu_vastaavuus">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ratu_vastaavuus_koodi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ratu_laatu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ratu_laatu_koodi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="i_raktilav">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="i_pyraknro">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="i_nkoord">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="i_ekoord">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="i_kokala">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="i_kerrosala">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="i_kerrlkm">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="i_kellarala">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="i_huoneistojen_lkm">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_ashuoala">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_vtj_prt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_viemlii">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_vesilii">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_valmpvm">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_sahkolii">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_rakeaine">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_poltaine">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_lammtapa">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_kiinteistotunnus">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_kayttark">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_julkisivu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="c_hissi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="katunimi_suomi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="katunimi_ruotsi">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="osoitenumero">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postinumero">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="muokkauspvm">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="luontipvm">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datanomistaja">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="paivitetty_tietopalveluun">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tietopalvelu_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" name="" index="0"/>
+        <alias field="kuntarekisteri_id" name="" index="1"/>
+        <alias field="kg_krakenn" name="" index="2"/>
+        <alias field="ratu" name="" index="3"/>
+        <alias field="vtj_prt" name="" index="4"/>
+        <alias field="tyyppi" name="" index="5"/>
+        <alias field="tyyppi_koodi" name="" index="6"/>
+        <alias field="tila" name="" index="7"/>
+        <alias field="tila_koodi" name="" index="8"/>
+        <alias field="ratu_vastaavuus" name="" index="9"/>
+        <alias field="ratu_vastaavuus_koodi" name="" index="10"/>
+        <alias field="ratu_laatu" name="" index="11"/>
+        <alias field="ratu_laatu_koodi" name="" index="12"/>
+        <alias field="i_raktilav" name="" index="13"/>
+        <alias field="i_pyraknro" name="" index="14"/>
+        <alias field="i_nkoord" name="" index="15"/>
+        <alias field="i_ekoord" name="" index="16"/>
+        <alias field="i_kokala" name="" index="17"/>
+        <alias field="i_kerrosala" name="" index="18"/>
+        <alias field="i_kerrlkm" name="" index="19"/>
+        <alias field="i_kellarala" name="" index="20"/>
+        <alias field="i_huoneistojen_lkm" name="" index="21"/>
+        <alias field="d_ashuoala" name="" index="22"/>
+        <alias field="c_vtj_prt" name="" index="23"/>
+        <alias field="c_viemlii" name="" index="24"/>
+        <alias field="c_vesilii" name="" index="25"/>
+        <alias field="c_valmpvm" name="" index="26"/>
+        <alias field="c_sahkolii" name="" index="27"/>
+        <alias field="c_rakeaine" name="" index="28"/>
+        <alias field="c_poltaine" name="" index="29"/>
+        <alias field="c_lammtapa" name="" index="30"/>
+        <alias field="c_kiinteistotunnus" name="" index="31"/>
+        <alias field="c_kayttark" name="" index="32"/>
+        <alias field="c_julkisivu" name="" index="33"/>
+        <alias field="c_hissi" name="" index="34"/>
+        <alias field="katunimi_suomi" name="" index="35"/>
+        <alias field="katunimi_ruotsi" name="" index="36"/>
+        <alias field="osoitenumero" name="" index="37"/>
+        <alias field="postinumero" name="" index="38"/>
+        <alias field="muokkauspvm" name="" index="39"/>
+        <alias field="luontipvm" name="" index="40"/>
+        <alias field="datanomistaja" name="" index="41"/>
+        <alias field="paivitetty_tietopalveluun" name="" index="42"/>
+        <alias field="tietopalvelu_id" name="" index="43"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="kuntarekisteri_id" applyOnUpdate="0"/>
+        <default expression="" field="kg_krakenn" applyOnUpdate="0"/>
+        <default expression="" field="ratu" applyOnUpdate="0"/>
+        <default expression="" field="vtj_prt" applyOnUpdate="0"/>
+        <default expression="" field="tyyppi" applyOnUpdate="0"/>
+        <default expression="" field="tyyppi_koodi" applyOnUpdate="0"/>
+        <default expression="" field="tila" applyOnUpdate="0"/>
+        <default expression="" field="tila_koodi" applyOnUpdate="0"/>
+        <default expression="" field="ratu_vastaavuus" applyOnUpdate="0"/>
+        <default expression="" field="ratu_vastaavuus_koodi" applyOnUpdate="0"/>
+        <default expression="" field="ratu_laatu" applyOnUpdate="0"/>
+        <default expression="" field="ratu_laatu_koodi" applyOnUpdate="0"/>
+        <default expression="" field="i_raktilav" applyOnUpdate="0"/>
+        <default expression="" field="i_pyraknro" applyOnUpdate="0"/>
+        <default expression="" field="i_nkoord" applyOnUpdate="0"/>
+        <default expression="" field="i_ekoord" applyOnUpdate="0"/>
+        <default expression="" field="i_kokala" applyOnUpdate="0"/>
+        <default expression="" field="i_kerrosala" applyOnUpdate="0"/>
+        <default expression="" field="i_kerrlkm" applyOnUpdate="0"/>
+        <default expression="" field="i_kellarala" applyOnUpdate="0"/>
+        <default expression="" field="i_huoneistojen_lkm" applyOnUpdate="0"/>
+        <default expression="" field="d_ashuoala" applyOnUpdate="0"/>
+        <default expression="" field="c_vtj_prt" applyOnUpdate="0"/>
+        <default expression="" field="c_viemlii" applyOnUpdate="0"/>
+        <default expression="" field="c_vesilii" applyOnUpdate="0"/>
+        <default expression="" field="c_valmpvm" applyOnUpdate="0"/>
+        <default expression="" field="c_sahkolii" applyOnUpdate="0"/>
+        <default expression="" field="c_rakeaine" applyOnUpdate="0"/>
+        <default expression="" field="c_poltaine" applyOnUpdate="0"/>
+        <default expression="" field="c_lammtapa" applyOnUpdate="0"/>
+        <default expression="" field="c_kiinteistotunnus" applyOnUpdate="0"/>
+        <default expression="" field="c_kayttark" applyOnUpdate="0"/>
+        <default expression="" field="c_julkisivu" applyOnUpdate="0"/>
+        <default expression="" field="c_hissi" applyOnUpdate="0"/>
+        <default expression="" field="katunimi_suomi" applyOnUpdate="0"/>
+        <default expression="" field="katunimi_ruotsi" applyOnUpdate="0"/>
+        <default expression="" field="osoitenumero" applyOnUpdate="0"/>
+        <default expression="" field="postinumero" applyOnUpdate="0"/>
+        <default expression="" field="muokkauspvm" applyOnUpdate="0"/>
+        <default expression="" field="luontipvm" applyOnUpdate="0"/>
+        <default expression="" field="datanomistaja" applyOnUpdate="0"/>
+        <default expression="" field="paivitetty_tietopalveluun" applyOnUpdate="0"/>
+        <default expression="" field="tietopalvelu_id" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" field="id" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="kuntarekisteri_id" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="kg_krakenn" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="ratu" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="vtj_prt" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="tyyppi" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="tyyppi_koodi" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="tila" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="tila_koodi" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="ratu_vastaavuus" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="ratu_vastaavuus_koodi" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="ratu_laatu" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="ratu_laatu_koodi" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="i_raktilav" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="i_pyraknro" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="i_nkoord" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="i_ekoord" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="i_kokala" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="i_kerrosala" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="i_kerrlkm" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="i_kellarala" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="i_huoneistojen_lkm" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="d_ashuoala" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_vtj_prt" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_viemlii" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_vesilii" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_valmpvm" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_sahkolii" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_rakeaine" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_poltaine" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_lammtapa" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_kiinteistotunnus" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_kayttark" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_julkisivu" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="c_hissi" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="katunimi_suomi" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="katunimi_ruotsi" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="osoitenumero" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="postinumero" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="muokkauspvm" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="luontipvm" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="datanomistaja" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="paivitetty_tietopalveluun" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="tietopalvelu_id" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="kuntarekisteri_id" exp=""/>
+        <constraint desc="" field="kg_krakenn" exp=""/>
+        <constraint desc="" field="ratu" exp=""/>
+        <constraint desc="" field="vtj_prt" exp=""/>
+        <constraint desc="" field="tyyppi" exp=""/>
+        <constraint desc="" field="tyyppi_koodi" exp=""/>
+        <constraint desc="" field="tila" exp=""/>
+        <constraint desc="" field="tila_koodi" exp=""/>
+        <constraint desc="" field="ratu_vastaavuus" exp=""/>
+        <constraint desc="" field="ratu_vastaavuus_koodi" exp=""/>
+        <constraint desc="" field="ratu_laatu" exp=""/>
+        <constraint desc="" field="ratu_laatu_koodi" exp=""/>
+        <constraint desc="" field="i_raktilav" exp=""/>
+        <constraint desc="" field="i_pyraknro" exp=""/>
+        <constraint desc="" field="i_nkoord" exp=""/>
+        <constraint desc="" field="i_ekoord" exp=""/>
+        <constraint desc="" field="i_kokala" exp=""/>
+        <constraint desc="" field="i_kerrosala" exp=""/>
+        <constraint desc="" field="i_kerrlkm" exp=""/>
+        <constraint desc="" field="i_kellarala" exp=""/>
+        <constraint desc="" field="i_huoneistojen_lkm" exp=""/>
+        <constraint desc="" field="d_ashuoala" exp=""/>
+        <constraint desc="" field="c_vtj_prt" exp=""/>
+        <constraint desc="" field="c_viemlii" exp=""/>
+        <constraint desc="" field="c_vesilii" exp=""/>
+        <constraint desc="" field="c_valmpvm" exp=""/>
+        <constraint desc="" field="c_sahkolii" exp=""/>
+        <constraint desc="" field="c_rakeaine" exp=""/>
+        <constraint desc="" field="c_poltaine" exp=""/>
+        <constraint desc="" field="c_lammtapa" exp=""/>
+        <constraint desc="" field="c_kiinteistotunnus" exp=""/>
+        <constraint desc="" field="c_kayttark" exp=""/>
+        <constraint desc="" field="c_julkisivu" exp=""/>
+        <constraint desc="" field="c_hissi" exp=""/>
+        <constraint desc="" field="katunimi_suomi" exp=""/>
+        <constraint desc="" field="katunimi_ruotsi" exp=""/>
+        <constraint desc="" field="osoitenumero" exp=""/>
+        <constraint desc="" field="postinumero" exp=""/>
+        <constraint desc="" field="muokkauspvm" exp=""/>
+        <constraint desc="" field="luontipvm" exp=""/>
+        <constraint desc="" field="datanomistaja" exp=""/>
+        <constraint desc="" field="paivitetty_tietopalveluun" exp=""/>
+        <constraint desc="" field="tietopalvelu_id" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" type="raster" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>50199.48138252203352749</xmin>
+        <ymin>5698260</ymin>
+        <xmax>2147351.48138252180069685</xmax>
+        <ymax>7795412</ymax>
+      </extent>
+      <id>Tampereen_kantakartta_MML__HARMAA__TM35__dc3ac0ec_59cd_4125_8bea_08fd6999aa63</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=georaster:kantakartta_mml_harmaa_EPSG_3067&amp;styles=raster_alpha&amp;tileMatrixSet=JHS&amp;url=https://georaster.tampere.fi/geoserver/gwc/service/wmts?REQUEST%3DGetCapabilities</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Tampereen kantakartta MML (HARMAA, TM35)</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / TM35FIN(E,N)",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",27],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3067"]]</wkt>
+          <proj4>+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1030</srsid>
+          <srid>3067</srid>
+          <authid>EPSG:3067</authid>
+          <description>ETRS89 / TM35FIN(E,N)</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer nodataColor="" opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" colorizeOn="0" colorizeRed="255" grayscaleMode="0" saturation="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" type="raster" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>315755.84763212251709774</xmin>
+        <ymin>6814015.36612621136009693</ymin>
+        <xmax>339776.2454895488335751</xmax>
+        <ymax>6828000.04067291785031557</ymax>
+      </extent>
+      <id>Tampereen_ortokuvakoonti__VÄRI__ETRS89___ETRS_TM35FIN__0e8bd7a0_7197_4465_b66d_ee068c6bd579</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=georaster:Ortokoonti_EPSG_3067&amp;styles&amp;url=https://georaster.tampere.fi/geoserver/ows</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Tampereen ortokuvakoonti (VÄRI, ETRS89 / ETRS-TM35FIN)</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / TM35FIN(E,N)",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",27],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3067"]]</wkt>
+          <proj4>+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1030</srsid>
+          <srid>3067</srid>
+          <authid>EPSG:3067</authid>
+          <description>ETRS89 / TM35FIN(E,N)</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer nodataColor="" opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" colorizeOn="0" colorizeRed="255" grayscaleMode="0" saturation="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" type="raster" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>314000.00000136287417263</xmin>
+        <ymin>6813000.062483717687428</ymin>
+        <xmax>350000.0000001490698196</xmax>
+        <ymax>6861000.0624964302405715</ymax>
+      </extent>
+      <id>Tampereen_kantakartta__MV__TM35__bc4e2f86_6597_4f05_abc1_34daf6c187e6</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=georaster:kantakartta_EPSG_3067&amp;styles&amp;url=https://georaster.tampere.fi/geoserver/ows</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Tampereen kantakartta (MV, TM35)</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / TM35FIN(E,N)",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",27],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3067"]]</wkt>
+          <proj4>+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1030</srsid>
+          <srid>3067</srid>
+          <authid>EPSG:3067</authid>
+          <description>ETRS89 / TM35FIN(E,N)</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer nodataColor="" opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" colorizeOn="0" colorizeRed="255" grayscaleMode="0" saturation="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" simplifyDrawingHints="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" simplifyDrawingTol="4.2" autoRefreshTime="0" type="vector" geometry="Polygon" wkbType="Polygon" readOnly="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyLocal="0" maxScale="0" labelsEnabled="0" minScale="100000000" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>24476566.60854749754071236</xmin>
+        <ymin>6813202.42988243699073792</ymin>
+        <xmax>24499847.86563707515597343</xmax>
+        <ymax>6844300.03699298016726971</ymax>
+      </extent>
+      <id>maankaytto_AK_ASEMAKAAVAINDEKSI_VIEW_e7fc2bf7_c346_4cf2_b1d7_c1698a490deb</id>
+      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:3878' typename='maankaytto:AK_ASEMAKAAVAINDEKSI_VIEW' url='https://geodata.tampere.fi/geoserver/ows?' version='auto'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>maankaytto:AK_ASEMAKAAVAINDEKSI_VIEW</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / GK24FIN",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",24],PARAMETER["scale_factor",1],PARAMETER["false_easting",24500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","3878"]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=24 +k=1 +x_0=24500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>27312</srsid>
+          <srid>3878</srid>
+          <authid>EPSG:3878</authid>
+          <description>ETRS89 / GK24FIN</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">WFS</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" force_rhr="0" name="0" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="225,89,137,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="DOKUMENTIT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TIF">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SELOSTE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RAKENTAMISTAPAOHJE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="KAAVA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAHV_PVM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="C_LAINVPVM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="C_VOIMPVM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="KAAVAN_LAJI_KOODI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="KAAVAN_LAJI_TXT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PALSTOJA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MI_SYMBOLOGY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MI_PRINX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="DOKUMENTIT" name="" index="0"/>
+        <alias field="TIF" name="" index="1"/>
+        <alias field="SELOSTE" name="" index="2"/>
+        <alias field="RAKENTAMISTAPAOHJE" name="" index="3"/>
+        <alias field="KAAVA" name="" index="4"/>
+        <alias field="VAHV_PVM" name="" index="5"/>
+        <alias field="C_LAINVPVM" name="" index="6"/>
+        <alias field="C_VOIMPVM" name="" index="7"/>
+        <alias field="KAAVAN_LAJI_KOODI" name="" index="8"/>
+        <alias field="KAAVAN_LAJI_TXT" name="" index="9"/>
+        <alias field="PALSTOJA" name="" index="10"/>
+        <alias field="MI_SYMBOLOGY" name="" index="11"/>
+        <alias field="MI_PRINX" name="" index="12"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="DOKUMENTIT" applyOnUpdate="0"/>
+        <default expression="" field="TIF" applyOnUpdate="0"/>
+        <default expression="" field="SELOSTE" applyOnUpdate="0"/>
+        <default expression="" field="RAKENTAMISTAPAOHJE" applyOnUpdate="0"/>
+        <default expression="" field="KAAVA" applyOnUpdate="0"/>
+        <default expression="" field="VAHV_PVM" applyOnUpdate="0"/>
+        <default expression="" field="C_LAINVPVM" applyOnUpdate="0"/>
+        <default expression="" field="C_VOIMPVM" applyOnUpdate="0"/>
+        <default expression="" field="KAAVAN_LAJI_KOODI" applyOnUpdate="0"/>
+        <default expression="" field="KAAVAN_LAJI_TXT" applyOnUpdate="0"/>
+        <default expression="" field="PALSTOJA" applyOnUpdate="0"/>
+        <default expression="" field="MI_SYMBOLOGY" applyOnUpdate="0"/>
+        <default expression="" field="MI_PRINX" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" field="DOKUMENTIT" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="TIF" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="SELOSTE" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="RAKENTAMISTAPAOHJE" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="KAAVA" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="VAHV_PVM" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="C_LAINVPVM" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="C_VOIMPVM" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="KAAVAN_LAJI_KOODI" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="KAAVAN_LAJI_TXT" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="PALSTOJA" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="MI_SYMBOLOGY" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="MI_PRINX" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="DOKUMENTIT" exp=""/>
+        <constraint desc="" field="TIF" exp=""/>
+        <constraint desc="" field="SELOSTE" exp=""/>
+        <constraint desc="" field="RAKENTAMISTAPAOHJE" exp=""/>
+        <constraint desc="" field="KAAVA" exp=""/>
+        <constraint desc="" field="VAHV_PVM" exp=""/>
+        <constraint desc="" field="C_LAINVPVM" exp=""/>
+        <constraint desc="" field="C_VOIMPVM" exp=""/>
+        <constraint desc="" field="KAAVAN_LAJI_KOODI" exp=""/>
+        <constraint desc="" field="KAAVAN_LAJI_TXT" exp=""/>
+        <constraint desc="" field="PALSTOJA" exp=""/>
+        <constraint desc="" field="MI_SYMBOLOGY" exp=""/>
+        <constraint desc="" field="MI_PRINX" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" simplifyDrawingHints="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" simplifyDrawingTol="4.2" autoRefreshTime="0" type="vector" geometry="Polygon" wkbType="Polygon" readOnly="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyLocal="0" maxScale="0" labelsEnabled="0" minScale="100000000" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>24478072.13367578014731407</xmin>
+        <ymin>6812217.48745486605912447</ymin>
+        <xmax>24506440.84273013472557068</xmax>
+        <ymax>6858812.69576594233512878</ymax>
+      </extent>
+      <id>luonto_YV_JARVI_43155d3c_6481_4b5b_be4b_c1a7a7ff897f</id>
+      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:3878' typename='luonto:YV_JARVI' url='https://geodata.tampere.fi/geoserver/ows?' version='auto'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>luonto:YV_JARVI</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / GK24FIN",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",24],PARAMETER["scale_factor",1],PARAMETER["false_easting",24500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","3878"]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=24 +k=1 +x_0=24500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>27312</srsid>
+          <srid>3878</srid>
+          <authid>EPSG:3878</authid>
+          <description>ETRS89 / GK24FIN</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">WFS</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" alpha="1" force_rhr="0" name="0" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="229,182,54,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;NIMI&quot;"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="NIMI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="KORKEUS_M">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PINTA_ALA_HA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RANTAVIIVANPITUUS_KM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUURIN_SYVYYS_M">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UIMARANTA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAJONEUVOKIELTO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MVENEKIELTO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VESISTO_NUMERO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VESISTOALUE_NUMERO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="JARVINUMERO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VESISTOALUEEN_NIMI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HAPPAMUUS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PHVUOSI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="KOKP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REHEVYYS_KOKP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PVUOSI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="KLOROFYLLI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REHEVYYS_KLOROFYLLI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="KLOROFYLLIVUOSI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VARIARVO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VARI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PT_VUOSI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LISATIETOJA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MI_PRINX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="NIMI" name="" index="0"/>
+        <alias field="KORKEUS_M" name="" index="1"/>
+        <alias field="PINTA_ALA_HA" name="" index="2"/>
+        <alias field="RANTAVIIVANPITUUS_KM" name="" index="3"/>
+        <alias field="SUURIN_SYVYYS_M" name="" index="4"/>
+        <alias field="UIMARANTA" name="" index="5"/>
+        <alias field="MAJONEUVOKIELTO" name="" index="6"/>
+        <alias field="MVENEKIELTO" name="" index="7"/>
+        <alias field="VESISTO_NUMERO" name="" index="8"/>
+        <alias field="VESISTOALUE_NUMERO" name="" index="9"/>
+        <alias field="JARVINUMERO" name="" index="10"/>
+        <alias field="VESISTOALUEEN_NIMI" name="" index="11"/>
+        <alias field="PH" name="" index="12"/>
+        <alias field="HAPPAMUUS" name="" index="13"/>
+        <alias field="PHVUOSI" name="" index="14"/>
+        <alias field="KOKP" name="" index="15"/>
+        <alias field="REHEVYYS_KOKP" name="" index="16"/>
+        <alias field="PVUOSI" name="" index="17"/>
+        <alias field="KLOROFYLLI" name="" index="18"/>
+        <alias field="REHEVYYS_KLOROFYLLI" name="" index="19"/>
+        <alias field="KLOROFYLLIVUOSI" name="" index="20"/>
+        <alias field="VARIARVO" name="" index="21"/>
+        <alias field="VARI" name="" index="22"/>
+        <alias field="PT_VUOSI" name="" index="23"/>
+        <alias field="LISATIETOJA" name="" index="24"/>
+        <alias field="MI_PRINX" name="" index="25"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="NIMI" applyOnUpdate="0"/>
+        <default expression="" field="KORKEUS_M" applyOnUpdate="0"/>
+        <default expression="" field="PINTA_ALA_HA" applyOnUpdate="0"/>
+        <default expression="" field="RANTAVIIVANPITUUS_KM" applyOnUpdate="0"/>
+        <default expression="" field="SUURIN_SYVYYS_M" applyOnUpdate="0"/>
+        <default expression="" field="UIMARANTA" applyOnUpdate="0"/>
+        <default expression="" field="MAJONEUVOKIELTO" applyOnUpdate="0"/>
+        <default expression="" field="MVENEKIELTO" applyOnUpdate="0"/>
+        <default expression="" field="VESISTO_NUMERO" applyOnUpdate="0"/>
+        <default expression="" field="VESISTOALUE_NUMERO" applyOnUpdate="0"/>
+        <default expression="" field="JARVINUMERO" applyOnUpdate="0"/>
+        <default expression="" field="VESISTOALUEEN_NIMI" applyOnUpdate="0"/>
+        <default expression="" field="PH" applyOnUpdate="0"/>
+        <default expression="" field="HAPPAMUUS" applyOnUpdate="0"/>
+        <default expression="" field="PHVUOSI" applyOnUpdate="0"/>
+        <default expression="" field="KOKP" applyOnUpdate="0"/>
+        <default expression="" field="REHEVYYS_KOKP" applyOnUpdate="0"/>
+        <default expression="" field="PVUOSI" applyOnUpdate="0"/>
+        <default expression="" field="KLOROFYLLI" applyOnUpdate="0"/>
+        <default expression="" field="REHEVYYS_KLOROFYLLI" applyOnUpdate="0"/>
+        <default expression="" field="KLOROFYLLIVUOSI" applyOnUpdate="0"/>
+        <default expression="" field="VARIARVO" applyOnUpdate="0"/>
+        <default expression="" field="VARI" applyOnUpdate="0"/>
+        <default expression="" field="PT_VUOSI" applyOnUpdate="0"/>
+        <default expression="" field="LISATIETOJA" applyOnUpdate="0"/>
+        <default expression="" field="MI_PRINX" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" field="NIMI" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="KORKEUS_M" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="PINTA_ALA_HA" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="RANTAVIIVANPITUUS_KM" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="SUURIN_SYVYYS_M" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="UIMARANTA" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="MAJONEUVOKIELTO" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="MVENEKIELTO" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="VESISTO_NUMERO" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="VESISTOALUE_NUMERO" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="JARVINUMERO" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="VESISTOALUEEN_NIMI" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="PH" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="HAPPAMUUS" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="PHVUOSI" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="KOKP" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="REHEVYYS_KOKP" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="PVUOSI" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="KLOROFYLLI" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="REHEVYYS_KLOROFYLLI" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="KLOROFYLLIVUOSI" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="VARIARVO" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="VARI" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="PT_VUOSI" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="LISATIETOJA" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" field="MI_PRINX" unique_strength="0" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="NIMI" exp=""/>
+        <constraint desc="" field="KORKEUS_M" exp=""/>
+        <constraint desc="" field="PINTA_ALA_HA" exp=""/>
+        <constraint desc="" field="RANTAVIIVANPITUUS_KM" exp=""/>
+        <constraint desc="" field="SUURIN_SYVYYS_M" exp=""/>
+        <constraint desc="" field="UIMARANTA" exp=""/>
+        <constraint desc="" field="MAJONEUVOKIELTO" exp=""/>
+        <constraint desc="" field="MVENEKIELTO" exp=""/>
+        <constraint desc="" field="VESISTO_NUMERO" exp=""/>
+        <constraint desc="" field="VESISTOALUE_NUMERO" exp=""/>
+        <constraint desc="" field="JARVINUMERO" exp=""/>
+        <constraint desc="" field="VESISTOALUEEN_NIMI" exp=""/>
+        <constraint desc="" field="PH" exp=""/>
+        <constraint desc="" field="HAPPAMUUS" exp=""/>
+        <constraint desc="" field="PHVUOSI" exp=""/>
+        <constraint desc="" field="KOKP" exp=""/>
+        <constraint desc="" field="REHEVYYS_KOKP" exp=""/>
+        <constraint desc="" field="PVUOSI" exp=""/>
+        <constraint desc="" field="KLOROFYLLI" exp=""/>
+        <constraint desc="" field="REHEVYYS_KLOROFYLLI" exp=""/>
+        <constraint desc="" field="KLOROFYLLIVUOSI" exp=""/>
+        <constraint desc="" field="VARIARVO" exp=""/>
+        <constraint desc="" field="VARI" exp=""/>
+        <constraint desc="" field="PT_VUOSI" exp=""/>
+        <constraint desc="" field="LISATIETOJA" exp=""/>
+        <constraint desc="" field="MI_PRINX" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" name="NIMI" type="field" hidden="0"/>
+          <column width="-1" name="KORKEUS_M" type="field" hidden="0"/>
+          <column width="-1" name="PINTA_ALA_HA" type="field" hidden="0"/>
+          <column width="-1" name="RANTAVIIVANPITUUS_KM" type="field" hidden="0"/>
+          <column width="-1" name="SUURIN_SYVYYS_M" type="field" hidden="0"/>
+          <column width="-1" name="UIMARANTA" type="field" hidden="0"/>
+          <column width="-1" name="MAJONEUVOKIELTO" type="field" hidden="0"/>
+          <column width="-1" name="MVENEKIELTO" type="field" hidden="0"/>
+          <column width="-1" name="VESISTO_NUMERO" type="field" hidden="0"/>
+          <column width="-1" name="VESISTOALUE_NUMERO" type="field" hidden="0"/>
+          <column width="-1" name="JARVINUMERO" type="field" hidden="0"/>
+          <column width="-1" name="VESISTOALUEEN_NIMI" type="field" hidden="0"/>
+          <column width="-1" name="PH" type="field" hidden="0"/>
+          <column width="-1" name="HAPPAMUUS" type="field" hidden="0"/>
+          <column width="-1" name="PHVUOSI" type="field" hidden="0"/>
+          <column width="-1" name="KOKP" type="field" hidden="0"/>
+          <column width="-1" name="REHEVYYS_KOKP" type="field" hidden="0"/>
+          <column width="-1" name="PVUOSI" type="field" hidden="0"/>
+          <column width="-1" name="KLOROFYLLI" type="field" hidden="0"/>
+          <column width="-1" name="REHEVYYS_KLOROFYLLI" type="field" hidden="0"/>
+          <column width="-1" name="KLOROFYLLIVUOSI" type="field" hidden="0"/>
+          <column width="-1" name="VARIARVO" type="field" hidden="0"/>
+          <column width="-1" name="VARI" type="field" hidden="0"/>
+          <column width="-1" name="PT_VUOSI" type="field" hidden="0"/>
+          <column width="-1" name="LISATIETOJA" type="field" hidden="0"/>
+          <column width="-1" name="MI_PRINX" type="field" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"NIMI"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" type="raster" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>374341.21999999997206032</xmin>
+        <ymin>7144240.73000000044703484</ymin>
+        <xmax>496323.57000000000698492</xmax>
+        <ymax>7271281.87000000011175871</ymax>
+      </extent>
+      <id>Oulun_asemakaava_b7cd43ff_ac2e_4c01_8140_69d78c8c3e8e</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Asemakaava&amp;styles&amp;url=https://e-kartta.ouka.fi/TeklaOGCWeb/WMS.ashx</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Oulun asemakaava</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / TM35FIN(E,N)",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",27],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3067"]]</wkt>
+          <proj4>+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1030</srsid>
+          <srid>3067</srid>
+          <authid>EPSG:3067</authid>
+          <description>ETRS89 / TM35FIN(E,N)</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer nodataColor="" opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" colorizeOn="0" colorizeRed="255" grayscaleMode="0" saturation="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" type="raster" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>374341.21999999997206032</xmin>
+        <ymin>7144240.73000000044703484</ymin>
+        <xmax>496363.28000000002793968</xmax>
+        <ymax>7273780.5</ymax>
+      </extent>
+      <id>Oulun_ilmakuva_2018_9be86ffb_47e1_4a80_ad7a_40ead15cff84</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Ilmakuva%202018%20re&amp;styles&amp;url=https://e-kartta.ouka.fi/TeklaOGCWeb/WMS.ashx</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Oulun ilmakuva 2018</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / TM35FIN(E,N)",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",27],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3067"]]</wkt>
+          <proj4>+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1030</srsid>
+          <srid>3067</srid>
+          <authid>EPSG:3067</authid>
+          <description>ETRS89 / TM35FIN(E,N)</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer nodataColor="" opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" colorizeOn="0" colorizeRed="255" grayscaleMode="0" saturation="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" type="raster" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>373126.61868448212044314</xmin>
+        <ymin>6677605.14381015580147505</ymin>
+        <xmax>401905.14839896373450756</xmax>
+        <ymax>6699515.15720964781939983</ymax>
+      </extent>
+      <id>Kaupunkikartta_mustavalko_bd8d3ad8_5eeb_410a_b70a_9c46dfbbb52d</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=taustakartta:kaupunkikartta_mv&amp;styles&amp;url=http://gis.vantaa.fi/geoserver/wms?request%3DGetCapabilities</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Kaupunkikartta mustavalko</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / TM35FIN(E,N)",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",27],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3067"]]</wkt>
+          <proj4>+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1030</srsid>
+          <srid>3067</srid>
+          <authid>EPSG:3067</authid>
+          <description>ETRS89 / TM35FIN(E,N)</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer nodataColor="" opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" colorizeOn="0" colorizeRed="255" grayscaleMode="0" saturation="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" type="raster" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>25485000</xmin>
+        <ymin>6679999.99999999906867743</ymin>
+        <xmax>25511000</xmax>
+        <ymax>6699000</ymax>
+      </extent>
+      <id>Ortoilmakuva_2019_f0a09a32_d9be_47b8_ab56_25af5426e2a6</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3879&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=taustakartta:ortokuva_2019&amp;styles&amp;url=http://gis.vantaa.fi/geoserver/wms?request%3DGetCapabilities</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Ortoilmakuva 2019</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / GK25FIN",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",25],PARAMETER["scale_factor",1],PARAMETER["false_easting",25500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","3879"]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=25 +k=1 +x_0=25500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>27314</srsid>
+          <srid>3879</srid>
+          <authid>EPSG:3879</authid>
+          <description>ETRS89 / GK25FIN</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer nodataColor="" opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" colorizeOn="0" colorizeRed="255" grayscaleMode="0" saturation="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" type="raster" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>359654.44000000000232831</xmin>
+        <ymin>6659897.38999999966472387</ymin>
+        <xmax>382730.34000000002561137</xmax>
+        <ymax>6695207.28000000026077032</ymax>
+      </extent>
+      <id>Espoon_karsittu_kantakartta__harmaa_03476cc4_6f06_448b_a187_9bd4e677124d</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Karsittu_kantakartta&amp;styles&amp;url=http://kartat.espoo.fi/teklaogcweb/WMS.ashx</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Espoon karsittu kantakartta, harmaa</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / TM35FIN(E,N)",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",27],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3067"]]</wkt>
+          <proj4>+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1030</srsid>
+          <srid>3067</srid>
+          <authid>EPSG:3067</authid>
+          <description>ETRS89 / TM35FIN(E,N)</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer nodataColor="" opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" colorizeOn="0" colorizeRed="255" grayscaleMode="0" saturation="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+8" type="raster" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>359624.20000000001164153</xmin>
+        <ymin>6658898.00999999977648258</ymin>
+        <xmax>384850.30999999999767169</xmax>
+        <ymax>6699143.82000000029802322</ymax>
+      </extent>
+      <id>Espoon_ortokartta_2019_49b143fe_1974_4c4e_8605_85ed42109355</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3067&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Ortokartta&amp;styles&amp;url=http://kartat.espoo.fi/teklaogcweb/WMS.ashx</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Espoon ortokartta 2019</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCS["ETRS89 / TM35FIN(E,N)",GEOGCS["ETRS89",DATUM["European_Terrestrial_Reference_System_1989",SPHEROID["GRS 1980",6378137,298.257222101,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6258"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4258"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",27],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","3067"]]</wkt>
+          <proj4>+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1030</srsid>
+          <srid>3067</srid>
+          <authid>EPSG:3067</authid>
+          <description>ETRS89 / TM35FIN(E,N)</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer nodataColor="" opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" colorizeOn="0" colorizeRed="255" grayscaleMode="0" saturation="0" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </maplayers>
+</qlr>
