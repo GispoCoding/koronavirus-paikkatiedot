@@ -3,6 +3,6 @@ QGIS mahdollistaa usean rajapintapalvelun hyödyntämisen näppärästi .qlr eli
 
 .qlr-tiedostoja ladataan QGISissa seuraavasti:
 
-Tasot > Lisää tason määrittelytiedostona...
+Tasot > Lisää tason määrittelytiedostona... (eng. Layer > Add from Layer Definition File)
 
 ![qlr-tiedoston lataaminen](/rajapintapalvelut/qlr_tiedostot.png?raw=true "qlr-tiedoston lataaminen")
