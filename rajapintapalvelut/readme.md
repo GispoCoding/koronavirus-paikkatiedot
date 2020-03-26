@@ -5,4 +5,4 @@ QGIS mahdollistaa usean rajapintapalvelun hyödyntämisen näppärästi .qlr eli
 
 Tasot > Lisää tason määrittelytiedostona...
 
-![Alt text](/qlr_tiedostot.png?raw=true ".qlr-tiedostojen lataaminen QGISissa")
+![qlr-tiedoston lataaminen](/rajapintapalvelut/qlr_tiedostot.png?raw=true "qlr-tiedoston lataaminen")
