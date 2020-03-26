@@ -1,0 +1,25 @@
+<!DOCTYPE connections>
+<qgsWFSConnections version="1.0">
+    <wfs username="" url="http://kartat.espoo.fi/teklaogcweb/WMS.ashx" password="" name="Espoon kaupunki" referer=""/>
+    <wfs username="" url="https://opendata.fmi.fi/wfs?request=GetFeature&amp;storedquery_id=GetDataSetById&amp;datasetid=1000561" password="" name="FMI" referer=""/>
+    <wfs username="" url="http://gtkdata.gtk.fi/arcgis/services/Rajapinnat/GTK_Kalliopera_WFS/MapServer/WFSServer" password="" name="GTK - Kallioperä" referer=""/>
+    <wfs username="" url="http://gtkdata.gtk.fi/arcgis/services/Rajapinnat/GTK_Kiviainesvarannot_WFS/MapServer/WFSServer" password="" name="GTK - Kiviainesvarannot" referer=""/>
+    <wfs username="" url="http://gtkdata.gtk.fi/arcgis/services/Rajapinnat/GTK_Maapera_WMS/MapServer/WMSServer" password="" name="GTK - Maaperä" referer=""/>
+    <wfs username="" url="https://kartta.hsy.fi/geoserver/wfs?request=getCapabilities" password="" name="HSY" referer=""/>
+    <wfs username="" url="https://geoserver.hel.fi:443/geoserver/wfs" password="" name="Helsingin kaupunki - Kaupunkikanslia" referer=""/>
+    <wfs username="" url="https://kartta.hel.fi/ws/geoserver/avoindata/ows" password="" name="Helsingin kaupunki - Kaupunkiympäristön toimiala" referer=""/>
+    <wfs username="" url="http://lipas.cc.jyu.fi/geoserver/lipas/ows" password="" name="Jyväskylän yliopistot - Liikuntapaikat (Lipas)" referer=""/>
+    <wfs username="" url="http://geoserver.lounaistieto.fi/geoserver/ows?" password="" name="Lounaistieto" referer=""/>
+    <wfs username="" url="https://inspire-wms.maanmittauslaitos.fi/inspire-wms/CP/ows" password="" name="MML - INSPIRE - Cadastral parcels" referer=""/>
+    <wfs username="" url="https://inspire-wms.maanmittauslaitos.fi/inspire-wms/BU_MTK/ows" password="" name="MML - INSPIRE - buildings (WFS)" referer=""/>
+    <wfs username="" url="http://avaa.tdata.fi/geoserver/osm_finland/wfs" password="" name="OpenStreetMap Finland (CSC)" referer=""/>
+    <wfs username="" url="https://e-kartta.ouka.fi/TeklaOGCWeb/WFS.ashx" password="" name="Oulun kaupunki" referer=""/>
+    <wfs username="" url="http://avaa.tdata.fi/geoserver/paituli/wfs" password="" name="Paituli (CSC)" referer=""/>
+    <wfs username="" url="http://paikkatieto.ymparisto.fi/arcgis/rest/services/SYKE/SYKE_Pohjavesialueet/MapServer" password="" name="SYKE" referer=""/>
+    <wfs username="" url="https://rajapinnat.metsaan.fi/geoserver/Avoinmetsatieto/ows" password="" name="Suomen metsäkeskus" referer=""/>
+    <wfs username="" url="https://geodata.tampere.fi/geoserver/ows" password="" name="Tampereen kaupunki" referer=""/>
+    <wfs username="" url="http://geoserv.stat.fi:8080/geoserver/wfs" password="" name="Tilastokeskus" referer=""/>
+    <wfs username="" url="http://opaskartta.turku.fi/TeklaOGCWeb/WFS.ashx" password="" name="Turun kaupunki" referer=""/>
+    <wfs username="" url="http://gis.vantaa.fi/geoserver/wfs?request=GetCapabilities" password="" name="Vantaan kaupunki" referer=""/>
+    <wfs username="" url="https://julkinen.vayla.fi/inspirepalvelu/digiroad/wfs?request=getcapabilities" password="" name="Väylä - Digiroad" referer=""/>
+</qgsWFSConnections>
