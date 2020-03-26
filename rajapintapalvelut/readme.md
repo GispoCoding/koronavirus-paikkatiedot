@@ -18,3 +18,12 @@ Tasot > Lisää tason määrittelytiedostona... (eng. Layer > Add from Layer Def
 
 https://gispohelp.zendesk.com/hc/fi/articles/208159815
 
+Rajapintapalveluiden URL-osoitteiden lataamiseksi voi myös hyödyntää oheen ladattua .xml-tiedostoa, johon on tallennettu usean suomalaisen organisaation WFS-rajapintapalveluosoitteita. Näin käyttäjä säästyy kunkin rajapintapalveluosoitteen manuaaliselta tallentamiselta. Alla näytönkaappauksia QGISista rajapintapalveluiden lataamiseksi:
+
+![Avataan tietolähteiden hallinta](/rajapintapalvelut/1_lataa_wfs_rajapinnat.png?raw=true "Avataan tietolähteiden hallinta")
+![Valitaan haluamamme yhteydet](/rajapintapalvelut/2_lataa_wfs_rajapinnat.png?raw=true "Valitaan haluamamme yhteydet")
+![Ladatut rajapinnat](/rajapintapalvelut/3_lataa_wfs_rajapinnat.png?raw=true "Ladatut rajapinnat")
+
+
+
+
