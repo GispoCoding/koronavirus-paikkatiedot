@@ -28,3 +28,12 @@ Tähän kerätään linkkejä työkaluihin ja erilaisiin resursseihin, joita voi
 * [QGIS](https://www.qgis.org/en/site/)
   * Paikkatiedon yleistyökalu visualisointien tekemiseen ja aineistojen käsittelyyn
   
+## Tilannekuvakartat
+Olemme laatineet tilannekuvakarttoja A0, A1 ja A2 kokoisina. Näitä voidaan käyttää tilanteen seuraamiseen esimerkiksi johtokeskuksissa.
+* Maakunnittain: https://drive.google.com/drive/folders/1uuf7jeA1qna4mDzfWlE9VFvslKYmrC-I
+* Sairaanhoitopiireittäin (tulossa)
+* Kunnittain (tulossa)
+
+Julkaisemme myös myöhemmin QGIS projektitiedostot.
+
+
