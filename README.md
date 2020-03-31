@@ -31,8 +31,8 @@ Tähän kerätään linkkejä työkaluihin ja erilaisiin resursseihin, joita voi
 ## Tilannekuvakartat
 Olemme laatineet tilannekuvakarttoja A0, A1 ja A2 kokoisina. Näitä voidaan käyttää tilanteen seuraamiseen esimerkiksi johtokeskuksissa. PDF-tiedosto on ladattavissa ja vapaasti tulostettavissa (käyttöehtolisenssi on CC-BY-SA)
 * Maakunnittain: https://drive.google.com/drive/folders/1uuf7jeA1qna4mDzfWlE9VFvslKYmrC-I
-* Sairaanhoitopiireittäin (tulossa)
-* Kunnittain (tulossa)
+* Sairaanhoitopiireittäin (https://drive.google.com/drive/folders/1wd1X2ePYNWbbnwFZrhGJQBt5qLACGsBh?usp=sharing)
+* Kunnittain (kysy, niin voimme tehdä)
 
 Kartat on myös mahdollista tilata tulosteina (linkki tulossa).
 
