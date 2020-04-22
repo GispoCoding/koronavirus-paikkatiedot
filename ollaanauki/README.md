@@ -4,5 +4,5 @@ Täällä on muutamia tiedostoja, joiden avulla Ollaan Auki -palvelun tietoja vo
 
 ## QGIS
 
-[OSM:sta palveluun ladatut tiedostot](OllaanAuki_osmPoI.qgz)
+OSM:sta palveluun ladatut tiedostot: [OllaanAuki_osmPoI.qgz](OllaanAuki_osmPoI.qgz)
 
